@@ -1,0 +1,295 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: changa;
+}
+
+/*index page From file*/
+
+.student_form_left{
+	width: 100%;
+	height: 300px;
+	background-color: red;
+	margin:100px 0 0 0;
+}
+
+.top{
+	clear: both;
+}
+.student_form_right{
+	width: 80%;
+	height: 444px;
+	background-color: white;
+	margin:100px 0 0 0;
+	float: right;
+	border:2px solid #09272d;
+}
+
+.student_form_right button{
+	display: block;
+	margin: auto;
+}
+
+
+.form input{
+	background:transparent;
+	border-color: gray;
+	border:2px solid gray;
+}
+
+.form input:focus{
+	background:transparent;
+	border:2px solid #115b73;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+  	border-color: white;
+  	box-shadow: none;
+    
+}
+
+
+.form select{
+	background:transparent;
+	border-color: gray;
+}
+
+.form select:focus{
+	background:transparent;
+}
+
+.btn-primary{
+	background-color: #075f30;
+	border-color: #075f30;
+}
+.btn-primary:hover{
+	background-color: #058a00;
+	border-color: #058a00;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+	background-color: #075f30;
+	border-color: #075f30;
+}
+
+.card-footer a{
+	display: block;
+	margin:auto;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.card-body a{
+	display: block;
+	margin:auto;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+
+.card-body {
+	padding: 0px;
+}
+
+/*end*/
+
+
+
+/*index page left side*/
+
+.student_form_left{
+	height: 200px;
+	background-color: white;
+	margin:100px 0 0 0;
+	float: left;
+	
+}
+
+.rl-item{
+	width: 25%;
+	margin-top:10px;
+	border: 1px solid #09272d;
+    display: inline-block;
+}
+
+.rl-item img{
+	width: 100%;
+	height: 130px;
+
+}
+
+.rl-item h4{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.recent-login h3{
+	font-weight: bold;
+}
+
+/*End*/
+
+
+
+/*Register page*/
+
+
+.student_form_one{
+	background-color: #09272d;
+}
+
+.student_form_two{
+	background-color: #09272d;
+}
+
+.register{
+	float: right;
+}
+
+.registration-from{
+	clear: both;
+	padding: 50px 0px;
+	margin-bottom: 100px;
+}
+
+
+/*end*/
+
+
+
+/*Students page*/
+
+
+
+.students-table{
+	clear: both;
+	background: #09272d;
+}
+
+.students-table h2{
+	width: 100%;
+}
+
+.student-top {
+    width: 100%;
+    background: #09272d;
+    height: 80px;
+
+}
+
+.student-top a{
+	float: right;
+	width: 20%;
+	font-size: 23px;
+	font-weight: bold;
+	line-height: 20px;
+	background-color: #0a6107;
+	margin: 20px 20px;
+	border-radius: 6px !important;
+}
+
+.student-top h2{
+	float: left;
+	width: 50%;
+
+}
+
+.full-table{
+	overflow: auto;
+	height: 400px;
+}
+
+table tbody tr td img{
+	width: 50px;
+	height: 50px;
+	vertical-align: middle !important;
+}
+
+table tbody tr td{
+	vertical-align: middle!important;
+}
+
+table tbody tr td{
+	text-align: center;
+}
+
+table thead tr th{
+	text-align: center;
+	font-family: candara;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #707071;
+}
+
+table thead tr td h1{
+	width: 100px;
+}
+
+
+/*end*/
+
+
+
+
+/*User profile page*/
+
+.student_form{
+	width: 450px;
+	background-color: #09272d;
+	display: block;
+	margin:50px auto;
+	clear: both;
+}
+
+.profile img{
+	width: 200px;
+	height: 200px;
+	border:10px solid #405461;
+	display: block;
+	margin:auto;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px red;
+}
+
+.profile h2{
+	text-align: center;
+	font-family: impact;
+	padding-top:15px;
+}
+
+.profile h4{
+	text-align: center;
+	font-family: candara;
+}
+
+.profileTwo tr td{
+	width:8%;
+	height: 50px;
+	text-align: left;
+	font-family: candara;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.profileTwo tr{
+	border:1px solid gray;
+}
+
+.border-white {
+    border-color: gray!important;
+}
+
+.logout-btn{
+	float: right;
+}
+
+
+/*end*/
